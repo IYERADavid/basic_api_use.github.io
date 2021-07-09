@@ -1,0 +1,19 @@
+/* css codes */
+
+body{
+    height: 100%;
+}
+.container{
+    background-color: rgb(216, 41, 108);
+    height: 100%;
+    border-radius: 40px;
+}
+.title{
+    font-weight: bold !important;
+}
+.users{
+    border-radius: 0px;
+}
+#close{
+    float: right;
+}

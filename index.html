@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api-challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="main" class="container text-center">
+        <div class="page-head p-5">
+            <h2 class="title">welcome to my record breaking on understanding using API, Github Page, Js DOM manipulations</h2>
+        </div>
+        <div class="user_info container pb-5">
+            <div class="info_text pb-5">
+                <h3 class="text-light">All ten users information</h3>
+            </div>
+            <div class="users bg-info">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Posts</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</td>
+                            <td id="1" class="user_name" ></td>
+                            <td class="user_email"></td>
+                            <td><button onclick="get_posts(1)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td id="2" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(2)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td id="3" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(3)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</td>
+                            <td id="4" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(4)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td id="5" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(5)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td id="6" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(6)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</td>
+                            <td id="7" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(7)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td id="8" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(8)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td id="9" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(9)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td id="10" class="user_name"></td>
+                            <td class="user_email"></td>
+                            <td> <button onclick="get_posts(10)" type="submit" class="btn btn-success">view</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="user_posts">
+                <div class="posts_owner p-5">
+                    <h3 class="text-dark"><span id="user" ></span> <span><a type="button" onclick="erase_data()" id="close"></a></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
